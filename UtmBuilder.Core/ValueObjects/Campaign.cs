@@ -3,7 +3,7 @@
 public class Campaign:ValueObject
 {
     public Campaign(
-        sting source,
+        string source,
         string medium,
         string name,
         string? id = null,
