@@ -2,11 +2,19 @@
 
 public class Url:ValueObject
 
-{ 	   
-	public Url(string address)
+{
+    /// <summary>
+    /// Create a new URL
+    /// </summary>
+    /// <param name="address">Address of URL (Web site link)</param>
+    public Url(string address)
 	{
 		Address= address;
 
 	}
+
+	/// <summary>
+	///  Address of URL (Web site link)
+	/// </summary>
 	public string Address { get; }  
 }
