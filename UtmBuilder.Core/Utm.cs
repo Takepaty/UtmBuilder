@@ -4,6 +4,8 @@ namespace UtmBulder.Core;
 
 public class Utm
 {
+    
+
     public Utm(
         Url url,
         Campaign campaign)
@@ -20,5 +22,5 @@ public class Utm
     /// <summary>
     /// Campaign Details
     /// </summary>
-    public Campaign Campaign { get;}
+    public Campaign Campaign { get;}    
 }
