@@ -27,7 +27,6 @@ namespace UtmBuilder.Core.ValueObjects.Exceptions
         }
 
         [GeneratedRegex( "^(http:\\/\\/www\\.|https:\\/\\/www\\.|http:\\/\\/|https:\\/\\/)?[a-z0-9]+([\\-\\.]{1}[a-z0-9]+)*\\.[a-z]{2,5}(:[0-9]{1,5})?(\\/.*)?$" )]
-        private static partial Regex UrlRegex
-            ();
+        private static partial Regex UrlRegex();
     }
 }
